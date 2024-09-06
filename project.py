@@ -7,4 +7,5 @@ while True:
     ret, frame = cap.read()
 
     cv2.imshow('frame', image)
+
     
