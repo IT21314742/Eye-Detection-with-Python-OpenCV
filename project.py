@@ -8,4 +8,4 @@ while True:
 
     cv2.imshow('frame', image)
 
-    if cv2
+    if cv2.
