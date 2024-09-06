@@ -12,4 +12,4 @@ while True:
         break
 
 
-cap.
+cap.release
