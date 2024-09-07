@@ -11,7 +11,7 @@ while True:
     ret, frame = cap.read()
 
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    faces = face_cascade
+    faces = face_cascade.detectMultiScale
 
     cv2.imshow('frame', image)
 
