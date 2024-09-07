@@ -14,7 +14,6 @@ while True:
     faces = face_cascade.detectMultiScale(gray, 1.3, 5)
     cv2.imshow('face', image)
 
-    cv2.imshow('frame', image)
 
     if cv2.waitKey(1) == ord('q'):
         break
