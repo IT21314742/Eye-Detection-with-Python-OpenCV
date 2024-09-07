@@ -13,7 +13,7 @@ while True:
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     faces = face_cascade.detectMultiScale(gray, 1.3, 5)
     for (x, y, w, h) in faces:
-        cv2.rectangle(frame, (x,y), )
+        cv2.rectangle(frame, (x,y), (x + w, y + h))
     cv2.imshow('face', image)
 
 
