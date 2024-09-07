@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 cap = cv2.VideoCapture(0)
-face_cascade = 
+face_cascade = cv2
 
 while True:
     ret, frame = cap.read()
