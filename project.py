@@ -10,7 +10,7 @@ eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcasecade_fronta
 while True:
     ret, frame = cap.read()
 
-    cv2.cvtColor(frame, )
+    cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
     cv2.imshow('frame', image)
 
