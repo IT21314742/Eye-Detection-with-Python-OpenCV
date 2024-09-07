@@ -21,7 +21,6 @@ while True:
             cv2.rectangle(roi_color, (ex, ey), (ex + ew, ey + eh), (0, 255, 0), 5)
 
 
-
     cv2.imshow('face', image)
 
 
