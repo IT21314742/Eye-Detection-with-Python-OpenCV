@@ -6,8 +6,11 @@ cap = cv2.VideoCapture(0)
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcasecade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcasecade_frontalface_default.xml')
 
+
 while True:
     ret, frame = cap.read()
+
+    cv2.cvtColor
 
     cv2.imshow('frame', image)
 
