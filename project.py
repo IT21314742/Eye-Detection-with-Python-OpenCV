@@ -16,6 +16,7 @@ while True:
         cv2.rectangle(frame, (x,y), (x + w, y + h), (255, 0, 0), 5)
         roi_gray = gray[x:x+w, y:y+w]
         roi_color = frame[x:x+w, y:y+h]
+        
     cv2.imshow('face', image)
 
 
